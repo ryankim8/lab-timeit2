@@ -34,7 +34,7 @@ $ python3 -m timeit \
 > In this case, the character that follows the `\` is a newline character (rendered as `\n` in python),
 > and the `\` above signifies that the newline character should be interpreted as ordinary whitespace and not the end of a command.
 > Therefore, the command above is functionally equivalent to
-> ```
+ ```
 > $ python3 -m timeit -s 'import notes; n = 65536; xs = list(range(-n,n))' 'notes.binary_search_itr(xs,5)'
 > ```
 > But the first command is easier to read.
