@@ -45,7 +45,7 @@ measure the runtime and enter it into the table.
 (See the hint below the table before doing it all manually.)
 
 |                | `sequential_search_itr`   | `binary_search_rec`   |
-| -------------- | ------------------------- | --------------------- | 
+| -------------- | ------------------------- | --------------------- |
 | `n=2**0`       |         89.1 nsec         |       527 nsec        |
 | `n=2**1`       |         115 nsec          |       643 nsec        |
 | `n=2**2`       |         167 nsec          |       778 nsec        |
